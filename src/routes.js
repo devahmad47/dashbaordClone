@@ -17,6 +17,7 @@ import {
   MdBarChart,
   MdPerson,
   MdLock,
+  MdRestaurant 
 } from "react-icons/md";
 
 const routes = [
@@ -28,10 +29,10 @@ const routes = [
     component: <MainDashboard />,
   },
   {
-    name: "NFT Marketplace",
+    name: "All Restaurants",
     layout: "/admin",
     path: "nft-marketplace",
-    icon: <MdOutlineShoppingCart className="h-6 w-6" />,
+    icon: <MdRestaurant className="h-6 w-6" />,
     component: <NFTMarketplace />,
     secondary: true,
   },
