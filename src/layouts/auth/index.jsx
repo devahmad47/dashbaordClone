@@ -1,5 +1,5 @@
 import Footer from "components/footer/FooterAuthDefault";
-import image1 from "assets/img/auth/image1.jpeg";
+import image1 from "assets/img/auth/auth1.jpg";
 import { Link, Routes, Route, Navigate } from "react-router-dom";
 import routes from "routes.js";
 import FixedPlugin from "components/fixedPlugin/FixedPlugin";

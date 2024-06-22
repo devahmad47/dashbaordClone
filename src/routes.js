@@ -13,8 +13,8 @@ import SignIn from "views/auth/SignIn";
 // Icon Imports
 import {
   MdHome,
-  MdOutlineShoppingCart,
-  MdBarChart,
+  // MdOutlineShoppingCart,
+  // MdBarChart,
   MdPerson,
   MdLock,
   MdRestaurant 
