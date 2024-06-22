@@ -29,20 +29,20 @@ const routes = [
     component: <MainDashboard />,
   },
   {
-    name: "All Restaurants",
+    name: "Restaurants",
     layout: "/admin",
     path: "nft-marketplace",
     icon: <MdRestaurant className="h-6 w-6" />,
     component: <NFTMarketplace />,
     secondary: true,
   },
-  {
-    name: "Data Tables",
-    layout: "/admin",
-    icon: <MdBarChart className="h-6 w-6" />,
-    path: "data-tables",
-    component: <DataTables />,
-  },
+  // {
+  //   name: "Data Tables",
+  //   layout: "/admin",
+  //   icon: <MdBarChart className="h-6 w-6" />,
+  //   path: "data-tables",
+  //   component: <DataTables />,
+  // },
   {
     name: "Profile",
     layout: "/admin",
