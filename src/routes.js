@@ -31,7 +31,7 @@ const routes = [
   {
     name: "Restaurants",
     layout: "/admin",
-    path: "nft-marketplace",
+    path: "allrestaurants",
     icon: <MdRestaurant className="h-6 w-6" />,
     component: <NFTMarketplace />,
     secondary: true,

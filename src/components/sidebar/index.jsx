@@ -2,6 +2,7 @@
 
 import { HiX } from "react-icons/hi";
 import Links from "./components/Links";
+import { Link } from "react-router-dom";
 
 import SidebarCard from "components/sidebar/componentsrtl/SidebarCard";
 // import routes from "routes.js";
@@ -23,7 +24,7 @@ const Sidebar = ({ open, onClose ,routes}) => {
 
       <div className={`mx-[56px] mt-[50px] flex items-center`}>
         <div className="mt-1 ml-1 h-2.5 font-poppins text-[26px] font-bold uppercase text-navy-700 dark:text-white">
-          Restaurants 
+        <Link to='/'> Restaurants </Link> 
         </div>
       </div>
       <div class="mt-[58px] mb-7 h-px bg-gray-300 dark:bg-white/30" />

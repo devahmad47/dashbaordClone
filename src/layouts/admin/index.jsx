@@ -83,7 +83,7 @@ export default function Admin(props) {
 
                 <Route
                   path="/"
-                  element={<Navigate to="/admin/nft-marketplace" replace />}
+                  element={<Navigate to="/admin/default" replace />}
                 />
               </Routes>
             </div>
