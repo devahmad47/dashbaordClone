@@ -4,7 +4,7 @@ import React from "react";
 import MainDashboard from "views/admin/default";
 import NFTMarketplace from "views/admin/marketplace";
 import Profile from "views/admin/profile";
-import DataTables from "views/admin/tables";
+// import DataTables from "views/admin/tables";
 import RTLDefault from "views/rtl/default";
 
 // Auth Imports

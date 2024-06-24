@@ -1,6 +1,7 @@
 import { IoHeart, IoHeartOutline } from "react-icons/io5";
 import { useState } from "react";
 import Card from "components/card";
+import { Link } from "react-router-dom";
 
 const NftCard = ({ title, author, price, image, bidders, extra }) => {
   const [heart, setHeart] = useState(true);
@@ -10,11 +11,13 @@ const NftCard = ({ title, author, price, image, bidders, extra }) => {
     >
       <div className="h-full w-full">
         <div className="relative w-full">
+          <Link to="/restaurant/default">
           <img
             src={image}
             className="mb-3 h-full w-full rounded-xl 3xl:h-full 3xl:w-full"
             alt=""
           />
+          </Link>
           <button
             onClick={() => setHeart(!heart)}
             className="absolute top-3 right-3 flex items-center justify-center rounded-full bg-white p-2 text-brand-500 hover:cursor-pointer"
