@@ -17,6 +17,9 @@ import {
 import RestaurantDashboard from "views/restaurant/statistics";
 import TableOrders from "views/restaurant/orders";
 import PayoutPage from "views/restaurant/payout";
+import Menus from "views/restaurant/menu";
+import Setting from "views/restaurant/setting";
+import Reservation from "views/restaurant/reservation";
 
 
 export default function Restaurant(props) {
@@ -41,14 +44,13 @@ export default function Restaurant(props) {
       secondary: true,
     },
     {
-        name: "Menus",
+        name: "Menu",
         layout: "/restaurant",
         path: "menus",
         icon: <MdMenuBook className="h-6 w-6" />,
-        component: <RestaurantDashboard />,
+        component: <Menus />,
         secondary: true,
-      },
-      
+      }, 
     {
         name: "Payout",
         layout: "/restaurant",
@@ -62,7 +64,7 @@ export default function Restaurant(props) {
         layout: "/restaurant",
         path: "reservations",
         icon: <MdEvent className="h-6 w-6" />,
-        component: <RestaurantDashboard />,
+        component: <Reservation />,
         secondary: true,
       },
       {
@@ -70,7 +72,7 @@ export default function Restaurant(props) {
         layout: "/restaurant",
         path: "setting",
         icon: <MdSettings  className="h-6 w-6" />,
-        component: <RestaurantDashboard />,
+        component: <Setting />,
         secondary: true,
       },
     // {
